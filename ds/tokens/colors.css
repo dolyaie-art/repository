@@ -1,0 +1,72 @@
+/* Colors sampled directly from the source deck "A Guide to Culture in Chaos"
+   and the two El Lissitzky reference plates. */
+:root{
+/* Ink & paper — the McKinsey/Yale half of the brand */
+--ink-000:#ffffff;
+--ink-050:#f7f5f0;
+--ink-100:#e9e5dd;
+--ink-200:#cfcac1;
+--ink-300:#a8a29a;
+--ink-400:#7c776b;
+--ink-600:#4a4644;
+--ink-800:#1c1a1b;
+--ink-900:#0d0c0c;
+
+/* Chroma — the carnival playhouse half */
+--acid:#ffed4f;
+--amber:#ffcf00;
+--coral:#f97a63;
+--rose:#ff7f76;
+--teal:#26bcbe;
+--cobalt:#3563c4;
+--cyan:#01ffff;
+--chartreuse:#fcfc06;
+--vermilion:#fe0702;
+--terracotta:#c95f42;
+--oat:#e2d5b2;
+
+/* Semantic surfaces */
+--surface-page:var(--ink-000);
+--surface-page-warm:var(--ink-050);
+--surface-ink:var(--ink-800);
+--surface-card:var(--ink-000);
+--surface-sunk:var(--ink-050);
+--surface-accent:var(--acid);
+--surface-left:var(--teal);
+--surface-right:var(--coral);
+
+/* Semantic text */
+--text-primary:var(--ink-900);
+--text-secondary:var(--ink-600);
+--text-muted:var(--ink-400);
+--text-inverse:var(--ink-000);
+--text-on-accent:var(--ink-900);
+--text-accent:var(--cobalt);
+--text-link:var(--ink-900);
+--text-link-hover:var(--cobalt);
+
+/* Semantic lines */
+--line-hair:var(--ink-900);
+--line-soft:var(--ink-200);
+--line-inverse:var(--ink-000);
+--focus-ring:var(--cobalt);
+
+/* Duotone / split-field pairs used on comparison spreads */
+--pair-was:var(--teal);
+--pair-now:var(--coral);
+--pair-type:var(--cobalt);
+}
+[data-theme="ink"]{
+--surface-page:var(--ink-800);
+--surface-card:var(--ink-900);
+--surface-sunk:var(--ink-900);
+--text-primary:var(--ink-000);
+--text-secondary:var(--ink-200);
+--text-muted:var(--ink-300);
+--text-inverse:var(--ink-900);
+--text-link:var(--ink-000);
+--text-link-hover:var(--acid);
+--line-hair:var(--ink-000);
+--line-soft:var(--ink-600);
+--focus-ring:var(--acid);
+}
