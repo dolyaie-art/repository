@@ -1,0 +1,15 @@
+/* Webfonts — SUBSTITUTIONS. The source deck uses licensed retail faces
+   (a Canela/Signifier-class display serif, a Tiempos/Lyon-class text serif,
+   a Helvetica-Now-class grotesque, a GT-America-Mono-class label mono,
+   a Cooper-Black-class fat italic and a dry-brush marker).
+   Nearest Google Fonts matches are loaded below. Swap in the real binaries
+   when licensed files are available — see readme.md § Typography. */
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Archivo:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Bagel+Fat+One&family=Permanent+Marker&display=swap");
+:root{
+--font-display:"Instrument Serif",Georgia,"Times New Roman",serif;
+--font-serif:"Spectral",Georgia,"Times New Roman",serif;
+--font-sans:"Archivo","Helvetica Neue",Helvetica,sans-serif;
+--font-mono:"Space Mono","IBM Plex Mono",ui-monospace,monospace;
+--font-fat:"Bagel Fat One","Instrument Serif",serif;
+--font-marker:"Permanent Marker","Comic Sans MS",cursive;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Message sent — Donesh Olyaie</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="ds/tokens/fonts.css">
+  <link rel="stylesheet" href="ds/tokens/colors.css">
+  <link rel="stylesheet" href="ds/tokens/typography.css">
+  <link rel="stylesheet" href="ds/tokens/spacing.css">
+  <link rel="stylesheet" href="ds/tokens/borders.css">
+  <link rel="stylesheet" href="ds/tokens/elevation.css">
+  <link rel="stylesheet" href="ds/tokens/motion.css">
+  <link rel="stylesheet" href="ds/tokens/textures.css">
+  <link rel="stylesheet" href="ds/styles.css">
+  <script src="ds/_ds_bundle.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; background: var(--ink-800); color: var(--ink-000); -webkit-font-smoothing: antialiased; }
+    ::selection { background: var(--acid); color: var(--ink-900); }
+    a { color: var(--ink-000); text-decoration: none; }
+    a:hover { color: var(--acid); }
+    p { text-wrap: pretty; }
+  </style>
+</helmet>
+
+<div style="min-height: 100vh; display: flex; flex-direction: column; background: var(--ink-800);">
+  <header style="border-bottom: 1px solid var(--ink-600);">
+    <div style="max-width: 1440px; margin: 0 auto; padding: 16px clamp(20px, 4vw, 64px);">
+      <a href="index.html" style="font: 300 clamp(20px, 2.2vw, 25px)/1 var(--font-sans); letter-spacing: .02em; color: var(--ink-000);">Donesh Olyaie<span style="font-family: var(--font-mono); font-size: 13px; vertical-align: super;">*</span></a>
+    </div>
+  </header>
+
+  <main style="flex: 1 1 auto; display: flex; align-items: center;">
+    <div style="max-width: 1440px; width: 100%; margin: 0 auto; padding: clamp(56px, 9vw, 128px) clamp(20px, 4vw, 64px);">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(32px, 5vw, 80px); align-items: start;">
+        <div style="min-width: 0;">
+          <div style="font: 700 11px/1 var(--font-mono); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--acid);">Message sent</div>
+          <h1 style="font: 400 clamp(40px, 5.4vw, 84px)/1.03 var(--font-display); letter-spacing: var(--track-display); margin: 24px 0 0; max-width: 16ch; color: var(--ink-000);">Thank you &mdash; it landed.</h1>
+          <p style="font: 400 clamp(17px, 1.5vw, 20px)/1.55 var(--font-sans); color: var(--ink-200); max-width: 46ch; margin: 28px 0 0;">I read everything myself, usually within a couple of days. If it&rsquo;s time-sensitive, send a second note saying so &mdash; I won&rsquo;t take it as impatience.</p>
+          <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 38px;">
+            <x-import component-from-global-scope="DoneshOlyaieDesignSystem_f301ad.Button" hint-size="auto,44px" variant="acid" href="index.html" trailing="→">Back to the site</x-import>
+            <x-import component-from-global-scope="DoneshOlyaieDesignSystem_f301ad.Button" hint-size="auto,44px" variant="outline" href="index.html#perspective" dc-props="{{ inverseOutline }}">Read the essays</x-import>
+          </div>
+        </div>
+        <div style="min-width: 0; display: flex; flex-direction: column; gap: clamp(24px, 3vw, 40px);">
+          <img src="assets/imagery/red-telephone.jpg" alt="A red push-button desk telephone with a pink coiled cord, sitting on a wooden crate at a flea market" style="width: 100%; max-width: 340px; aspect-ratio: 4 / 5; object-fit: cover; transform: rotate(-2.5deg); box-shadow: var(--shadow-plate);">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer style="border-top: 1px solid var(--ink-600);">
+    <div style="max-width: 1440px; margin: 0 auto; padding: 22px clamp(20px, 4vw, 64px); font: 700 10px/1.6 var(--font-mono); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--ink-300); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
+      <span>Brand strategy · Marketing leadership · Go-to-market</span>
+      <span>Donesh Olyaie © 2026</span>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      inverseOutline: { style: { color: "var(--ink-000)", borderColor: "var(--ink-400)" } }
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+/* The system is square. Roundness is reserved for two shapes only:
+   the circle (annotation bubbles) and the pill (tags, chips). */
+:root{
+--radius-none:0px;
+--radius-pill:999px;
+--radius-circle:50%;
+--radius-ellipse:50% / 50%;
+
+--hair:1px; /* @kind other */
+--rule:1.5px; /* @kind other */
+--rule-heavy:2.5px; /* @kind other */
+--keyline:4px; /* @kind other */
+
+--border-hair:var(--hair) solid var(--line-hair);
+--border-rule:var(--rule) solid var(--line-hair);
+--border-soft:var(--hair) solid var(--line-soft);
+--border-dotted:var(--rule) dotted var(--line-hair);
+--border-box:var(--hair) solid var(--line-hair);
+}
