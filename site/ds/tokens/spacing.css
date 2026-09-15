@@ -1,0 +1,27 @@
+/* 4px base. Page margins and gutters come from the deck's print grid. */
+:root{
+--space-0:0px;
+--space-1:4px;
+--space-2:8px;
+--space-3:12px;
+--space-4:16px;
+--space-5:24px;
+--space-6:32px;
+--space-7:40px;
+--space-8:48px;
+--space-9:64px;
+--space-10:80px;
+--space-11:96px;
+--space-12:128px;
+--space-13:160px;
+--space-14:200px;
+
+--page-margin:64px;
+--page-margin-tight:32px;
+--gutter:48px;
+--column-gap:40px;
+--measure-serif:62ch; /* @kind other */
+--measure-sans:54ch; /* @kind other */
+--slide-w:1440px;
+--slide-h:1112px;
+}
